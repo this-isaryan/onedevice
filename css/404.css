@@ -1,0 +1,41 @@
+:root {
+    --color: #00528a;
+}
+
+body {
+    position: fixed;
+    background-image: url(../images/404.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.four-0-four-msg {
+    position: absolute;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--color);
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.four-0-four-msg a {
+    color: var(--color);
+}
+
+.credit {
+    color: #aaa;
+    position: fixed;
+    bottom: 0;
+    background: none;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}

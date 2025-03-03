@@ -1,0 +1,123 @@
+.saved-main {
+    padding-top: 66px;
+}
+
+.savedItems-section {
+    width: 100%;
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list {
+    width: 70%;
+    margin: auto;
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #000 !important;
+}
+
+.savedItems {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 60px;
+}
+
+.sm-product {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sm-product>div:first-child {
+    position: relative;
+    height: 100%;
+}
+
+.savedItems .sm-product:last-child {
+    margin-bottom: 0;
+}
+
+.sm-product-img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.sm-text {
+    width: 50%;
+    cursor: pointer;
+}
+
+.sm-product-brand {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.sm-product-name {
+    font-size: 18px;
+    color: #666;
+    line-height: 25px;
+    font-weight: normal !important;
+}
+
+.sm-price {
+    min-width: 100px;
+    text-align: right;
+}
+
+.sm-product-price {
+    font-weight: 900;
+    font-size: 25px;
+    color: #ff5a00;
+}
+
+.sm-delete-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.sm-delete-btn ion-icon {
+    font-size: 20px;
+}
+
+a.sm-delete-btn:hover {
+    color: #000 !important;
+    transform: rotate(180deg);
+    transition: all .5s;
+}
+
+.empty-img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 769px) {
+    .product-list {
+        width: 100%;
+    }
+}
