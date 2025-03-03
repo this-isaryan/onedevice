@@ -1,7 +1,7 @@
 <?php
 session_start();
-$connect = new PDO("mysql:host=localhost;dbname=u977860208_onedevice", "u977860208_onedevice", "N@yr@1122onedevice");
-$con=mysqli_connect("localhost","u977860208_onedevice","N@yr@1122onedevice","u977860208_onedevice");
+$connect = new PDO("mysql:host=localhost;dbname=", "", "");
+$con=mysqli_connect("localhost","","","");
 define('SERVER_PATH',$_SERVER["DOCUMENT_ROOT"].'//');
 define('SITE_PATH','https://onedevice.in/');
 
