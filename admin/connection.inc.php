@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","u977860208_onedevice","N@yr@1122onedevice","u977860208_onedevice");
+$con=mysqli_connect("localhost","","","");
 define('SERVER_PATH',$_SERVER["DOCUMENT_ROOT"].'//');
 define('SITE_PATH','http://onedevice.in');
 
